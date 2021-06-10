@@ -30,4 +30,6 @@ From our regression analysis, we can deduce the following:
 
   - from the summery data, we can see that the mean and medians are very close which suggests that the data does not have any skewness and the data is normally distributed. 
   - The design specifications for the MechaCar suspension coils dictate that the variance of the suspension coils must not exceed 100 pounds per inch. As per the above statistics, the variance is about 62 pounds per inch which is below the specified value. However one of the lots have a variance of over 170. Therefore, the current manufacturing data meets this design specification for all manufacturing lots in total but not each lot individually. 
+
+  
  
