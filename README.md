@@ -31,5 +31,34 @@ From our regression analysis, we can deduce the following:
   - from the summery data, we can see that the mean and medians are very close which suggests that the data does not have any skewness and the data is normally distributed. 
   - The design specifications for the MechaCar suspension coils dictate that the variance of the suspension coils must not exceed 100 pounds per inch. As per the above statistics, the variance is about 62 pounds per inch which is below the specified value. However one of the lots have a variance of over 170. Therefore, the current manufacturing data meets this design specification for all manufacturing lots in total but not each lot individually. 
 
-  
+## T-Tests on Suspension Coils
+
+For this section, we ran T-tests for the overall manufacturing data and also T-tests for individual lots. The purpose of the test was to compare the population mean of 1500 with the same means to determine if they were statistically different from the population. The results of the T-tests are provided below: 
+
+Overall production: 
+
+![](https://github.com/shahkibria/MechaCar_Statistical_Analysis/blob/main/Screenshots/T%20Test%20-%20Overall.png)
+
+Lot 1
+
+![](https://github.com/shahkibria/MechaCar_Statistical_Analysis/blob/main/Screenshots/T%20Test%20-%20Lot%201.png)
+
+Lot 2
+
+![](https://github.com/shahkibria/MechaCar_Statistical_Analysis/blob/main/Screenshots/T%20Test%20-%20Lot%202.png)
+
+Lot 3
+
+![](https://github.com/shahkibria/MechaCar_Statistical_Analysis/blob/main/Screenshots/T%20Test%20-%20Lot%203.png)
+
+ - Assuming the significance level of 5%, the p-value (0.06028) for the overall production data is above our significance level. The data is considered to have normal distribution so we do not have sufficient evidence to reject the null hypothesis. Therefore we can say that the sample mean is not statistically different from the population mean of 1500. 
+ - When looking at the individual lot data, we can see that Lot 3 has a p value (0.04168) lower than our significance level of 5%. Therefore we can say that Lot 3 has a sample mean which is statistically different from the population. 
+
+## MechaCars Design Study
+
+The metrics which I believe would be of interest to a consumer are the fuel efficiency and cost of ownership
+
+ - The user would like to determine whether the mpg fuel efficiency of MechaCars is better than other competitors or not. Hence we can use ANOVA tests for this purpose which is used to compare the means of a continuous numerical variable across a number of groups. A one-way ANOVA is used to test the means of a single dependent variable across a single independent variable with multiple groups(e.g.fuel efficiency(mpg) of different cars based on vehicle class).For conducting this test, mpg data of all the concerned manufacturers are required. The null hypotheses is that the means of mpg of all groups are equal.And the alternate hypotheses is that at least one of the means is different from all other groups.
+
+Cost: The user would want to determine whether the cost of MechaCars is less than or equal to that of other manufacturers. To compare the cost of various manufacturers we need to perform ANOVA test in which we need to have mainly cost and fuel efficiency data of all the concerned manufacturers. For this the null hypotheses will be that the means of costs of all groups are equal. And the alternate hypotheses is that at least one of the means is different from all other groups. 
  
