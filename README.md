@@ -4,11 +4,11 @@ In this project, statistics and hypothesis testing is used to analyze a series o
 
 ## Tools used
 
-R-programming , tidyverse, ggplot2, Hypothesis Testing, Regressional Analysis
+R-programming , tidyverse, ggplot2, Hypothesis Testing, Regression Analysis
 
 ## Linear Regression to Predict MPG
 
-In this activity we used multiple regression to predic the mpg of MechaCar prototypes which a number of variables such as car length, weight, spoiler angle etc. Our linear regression resulted in the following linear equation: 
+In this activity we used multiple regression to predict the mpg of MechaCar prototypes which a number of variables such as car length, weight, spoiler angle etc. Our linear regression resulted in the following linear equation: 
 mpg = (6.267e+00)vehicle_length + (1.245e-03)vehicle_weight + (6.877e-02)spoiler_angle + (3.546e+00)ground_clearance + (-3.411e+00)AWD + (-1.040e+02)
 A screenshot of our regression is provided below. 
 
